@@ -13,6 +13,10 @@ p {
 	font-style: italic;
 	text-align: center;
 }
+p::first-letter { 
+  font-size: 150%;
+  color: #90CF01;
+}
 li {
 	color :lightgrey;
 	font-family: Times New Roman;
@@ -29,4 +33,9 @@ em {
 }
 a {
 	color: red;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+	text-decoration: underline;
 }
